@@ -68,10 +68,42 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 
 h1 {
     font-size: 7.5rem;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5%;
+
 }
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0;
+}
+
+nav a {
+    color: white;
+}
+
+.topleftandright{
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    color: white;
+}
+.topleft{
+    display: flex;
+  
+}
+.topright{
+    display: flex;
+}
+
 
 h2 {
     font-size: 6rem;
+    text-align: center;
 }
 
 h3 {
