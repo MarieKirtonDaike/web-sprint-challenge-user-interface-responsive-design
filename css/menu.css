@@ -70,7 +70,7 @@ h1 {
     font-size: 7.5rem;
     color: white;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: ç;
     padding: 5%;
 
 }
@@ -83,27 +83,63 @@ nav{
     padding-top: 0;
 }
 
-nav a {
+.topmenu a {
     color: white;
 }
+h2{
+    display: flex;
+    justify-content: center;
+    color: white;
 
+}
 .topleftandright{
     background-color: rgba(0, 0, 0, 0.4);
     display: flex;
+    justify-content: center ;
+    justify-content: space-between;
     color: white;
+    padding-left: 5%;
+    padding-right: 5%;
 }
-.topleft{
+.topleft {
     display: flex;
   
 }
 .topright{
     display: flex;
 }
+.drinkprices {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+   
+    justify-content: space-between;
+}
+.prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.allthebottom{
+    display: flex;
+    justify-content: center;
+    background-color:  rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+form{
+    display: flex;
+}
+
+
+
 
 
 h2 {
     font-size: 6rem;
-    text-align: center;
 }
 
 h3 {
@@ -159,7 +195,9 @@ footer {
     padding-top: 2.5vh;
     font-size: 3rem;
 }
-
+.attheend{
+    color: black
+}
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
